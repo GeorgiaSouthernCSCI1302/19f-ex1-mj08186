@@ -16,8 +16,7 @@ public class FirstClassInGit {
 		String userName = input.next();
 		
 		//Display the user's name
-		System.out.print("Hello ");
-		System.out.println(userName);
+		System.out.print("Hello " + userName);
 	}
 
 }
